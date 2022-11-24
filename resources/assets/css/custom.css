@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/fonts/segoeui/SegoeUI.ttf');
+}
+@media screen and (max-height: 450px) {
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.sidenav {
+    right: 0;
+}
+.alert-success{
+    margin-top:20px;
+}
+@media only screen and (max-width: 1180px) {
+
+    nav .searchbar,.logo-navbar {
+        display: none
+    }
+    nav #navbar-mobile{
+        display: flex;
+    }
+}
+*{
+    font-family: 'Segoe UI', sans-serif;
+}
+.navbar{
+    background: #fff !important;
+}
+#main-menu-navigation .active .menu-item {
+    color: #fff;
+}
+.table .table-image{
+    width: 10%;
+}
+
+div.navbar-header.expanded #truncateLongTexts{
+    display: block;
+}
+div.navbar-header #truncateLongTexts{
+    display: none;
+}
+.thead-detail{
+    background: #f4f4f4;
+}
+.import-data{
+    display: none;
+}
+#dataTableBuilder {
+    width: -webkit-fill-available !important;
+}
+.header-navbar .navbar-container{
+    padding-left: 1rem;
+}
+
+.table.dataTable thead th:nth-child(1){
+    pointer-events: none;
+}
+
+.table.dataTable thead th:nth-child(1) input{
+    pointer-events: all;
+}
+
+.table.dataTable thead th:nth-child(1)::before{
+    display: none;
+}
+
+.table.dataTable thead th:nth-child(1)::after{
+    display: none;
+}
+
+.table thead th.sorting_disabled{
+    pointer-events: none;
+}
+
+#table-reorder thead tr{
+    background-color: #f8f8f8;
+}
+.dataTables_scroll  .dataTables_scrollHeadInner{
+    width: 100% !important;
+}
+.dataTables_scroll .table{
+    width: 100% !important;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 97%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute; /* Stay in place */
+    z-index: 999; /* Stay on top */
+    top: 65px;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 37px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border: none;
+    box-shadow: 0px 4px 25px 0px rgb(0 0 0 / 10%);
+    transition: all .3s ease-in-out;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.sidenav {
+    right: 0;
+}
+
+.main-menu.menu-light .navigation li a:not(.active):hover{
+    background: whitesmoke;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .logo,body.vertical-layout.vertical-menu-modern .main-menu.expanded .logo{
+    background: url('../../app-assets/images/logo/DufagoLogo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 175px;
+    height: 38px;
+}
+.navbar-header .navbar-brand .logo{
+    background: url('../../app-assets/images/ico/ICON.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 37px;
+}
+table.data-list-view.dataTable tbody tr:hover, table.data-thumb-view.dataTable tbody tr:hover{
+    transition:none !important;
+    transform: translateY(-0px) !important;
+}
+.dt-checkboxes-select-all input{
+    cursor: pointer !important;
+}
+
+table.data-list-view.dataTable .dt-checkboxes-cell input:hover:before{
+    border: 2px solid #373737 !important;
+    box-shadow: 0 0 0 7px #e8e8e8;
+    background: #e8e8e8;
+
+}
+.vs-checkbox-primary input:checked ~ .vs-checkbox-custom{
+    border-width: 1px !important;
+}
+.vs-checkbox-custom{
+    border-width: 6px !important;
+    border-color: #7367f0 !important;
+}
+.checkbox-all-custom:before{
+    border-width: 4px !important;
+    border-color: #7367f0 !important;
+    transition: all 0s ease !important;
+}
+
+.vs-checkbox-con input:checked ~ .vs-checkbox .vs-checkbox--check .vs-icon{
+    margin-left: 7px;
+}
+.action-btns .add-new-btn{
+    padding: 1.1rem 2rem !important;
+    background-color: #7367f0 !important;
+}
+.table-responsive .action-filters input[type=search] {
+    font-size: 15px;
+}
+.dt-buttons.btn-group{
+    min-height: 45px;
+}
+table.data-list-view.dataTable tbody td.dt-checkboxes-cell input:after, table.data-thumb-view.dataTable tbody td.dt-checkboxes-cell input:after{
+    top: 1px;
+}
+.data-list-view-header .table-responsive .top .action-btns .actions-dropodown, .data-thumb-view-header .table-responsive .top .action-btns .actions-dropodown{
+    margin-left: 10px !important;
+}
+.navbar-container .search-input.open{
+    width: 90%;
+}
+.navbar-container .search-input .search-input-close{
+    right: 0.5rem !important;
+}
+.actions-sticky{
+    margin: 1.3rem 2.2rem 0;
+    border-radius: 0.5rem;
+    position: fixed;
+    z-index: 11;
+    right: 0;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    top: 63px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    width: calc(100vw - (100vw - 100%) - calc(2.2rem * 2) - 260px);
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .actions-sticky{
+    width: calc(100vw - (100vw - 100%) - 4.4rem - 65px);
+}
+#data-list-view{
+    margin-top: 6rem ;
+}
+
+#warehouse-location {
+    margin-right: 1rem;
+}
+#warehouse-location .warehouse-location{
+    padding-right: 5rem!important;
+    margin-top: 4px;
+}
+.data-list-view-header .add-new-data-sidebar .add-new-data .new-data-title, .data-thumb-view-header .add-new-data-sidebar .add-new-data .new-data-title{
+    min-height: 2.5rem;
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .main-menu{
+    width: 65px;
+}
+.main-menu.menu-light .navigation > li{
+    padding: 0px 9px !important;
+}
+.main-menu .navbar-header{
+    padding: 0.35rem 1rem 0.3rem 1.2rem !important;
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .app-content, body.vertical-layout.vertical-menu-modern.menu-collapsed .footer{
+    margin-left: 65px !important;
+}
+body.vertical-layout.vertical-menu-modern.menu-collapsed .header-navbar.floating-nav{
+    width: calc(100vw - (100vw - 100%) - 4.4rem - 65px);
+}
+.click-image-thumbnail{
+    cursor: pointer;
+}
+.click-image-thumbnail:hover{
+    box-shadow: 0 0  1px 1px #817d7d;
+}
+.close-image-thumbnail {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 84px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+.image-thumbnail .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+#approve-comment {
+    width: 30rem;
+}
+
+
+.measuring-unit-conversion .success-custom{
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+.measuring-unit-conversion .success-custom{
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+.add-reorder .error-custom{
+    border-color: #c90000;
+    box-shadow: 0 0 0 0.2rem rgba(253, 100, 100, 0.25);
+}
+.dataTables_scrollBody{
+    margin-top: -1.5rem;
+}
+div.dataTables_wrapper div.dataTables_processing{
+    z-index: 100;
+}
+.main-menu.menu-light .navigation > li.active > a{
+    box-shadow: 0 0 10px 1px rgb(115 103 240 / 0%) !important;
+}
+.main-menu.menu-light .navigation > li ul .active{
+    box-shadow: 0 0 10px 1px rgb(115 103 240 / 0%) !important;
+}
+.custom-select{
+    vertical-align: unset !important;
+}
+.data-list-view-header .table-responsive .top .action-btns, .data-thumb-view-header .table-responsive .top .action-btns{
+    margin-top: 1.1rem !important;
+}
+#dataTableBuilder_wrapper .actions .show > .dropdown-menu{
+    transform: translate3d(0px, 50px, 0px) !important;
+
+}
+.sidebar-actions .dropdown .dropdown-menu::before{
+    right: 1rem !important;
+    left: auto !important;
+}
+
+.action-approve-item,.action-cancel-item ,.action-edit-item,.action-delete-item{
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.action-approve-item:hover,.action-cancel-item:hover,action-delete-item:hover{
+    filter: drop-shadow(0px 0px 1px #626262);
+
+}
+
+#table-reorder tbody tr{
+    line-height: 40px;
+}
+
+#table-reorder tbody tr input,#table-reorder tbody tr textarea{
+    height: 35px;
+}
+.data-items-unset{
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.new-data-title{
+    padding-top: 10px;
+}
+.hide-data-sidebar:hover{
+    filter: drop-shadow(0px 0px 1px #626262);
+}
+
+.btn{
+    border-radius: 1.5rem;
+}
+.data-list-view-header .table-responsive .top .action-btns .actions-dropodown, .data-thumb-view-header .table-responsive .top .action-btns .actions-dropodown{
+    border-radius: 1.5rem !important;
+}
+#basic-tabs-components .col-sm-12{
+    box-shadow: 0 3px 3.6px 0 rgb(0 0 0 / 13%);
+
+}
+#basic-tabs-components .card{
+    margin-bottom: 0rem !important;
+    box-shadow: 0px 4px 25px 0px rgb(0 0 0 / 0%) !important;
+}
+#basic-tabs-components .card-body{
+    padding: 10px 0 0 10px !important;
+}
+#basic-tabs-components .nav-tabs{
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    height: 40px;
+    margin-bottom: 0rem !important;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#basic-tabs-components .nav-tabs::-webkit-scrollbar {
+    display: none;
+}
+.data-items-bottom-fixed{
+    height: calc(100% - 14rem) !important;
+}
+.data-list-view-header .add-new-data-sidebar .add-new-data .new-data-title, .data-thumb-view-header .add-new-data-sidebar .add-new-data .new-data-title{
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1) !important;
+    padding-bottom: 5px !important;
+}
+.new-data-title.white{
+    box-shadow: 0px -5px 25px 0px rgb(0 0 0 / 10%) !important;
+}
+.sidebar-more-vertical{
+    font-size: 1.4rem;
+    right: 0;
+    top: -0.1428rem;
+    cursor: pointer;
+    color: #7367f0;
+}
+.sidebar-arrow-left{
+    font-size: 1.8rem;
+    color: #626262;
+}
+.sidebar-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-list-view-header .add-new-data-sidebar .add-new-data .new-data-title .hide-data-sidebar i, .data-thumb-view-header .add-new-data-sidebar .add-new-data .new-data-title .hide-data-sidebar i{
+    position: unset !important;
+}
+.sidebar-actions .dropdown .btn:not(.btn-sm):not(.btn-lg),.sidebar-actions .dropdown .btn:not(.btn-sm):not(.btn-lg).dropdown-toggle{
+    padding: 0.85rem 0rem !important;
+}
+.sidebar-actions .icon-more-vertical{
+    font-size: 1.3rem;
+    margin-right: 0rem !important;
+    color: #7367f0;
+}
+.sidebar-actions .icon-more-vertical:hover{
+    filter: drop-shadow(0px 0px 1px #626262);
+}
+.sidebar-title .title{
+    padding-top: 5px;
+}
+.reorder-actions .icon-more-vertical{
+    margin-right: 0rem !important;
+}
+.filters th{
+    padding: 0rem 1.785rem !important;
+}
+.dataTable .filters{
+    display: contents;
+}
+#product-search{
+    z-index: 999999;
+}
+.ui-autocomplete
+{
+    z-index:4000 !important
+}
+
+#form-data-list-transection .form-control[readonly],#form-data-list-transection .form-control[disabled]{
+    background-color: #eeeeee !important;
+}
+
+.navigation-main .menu-content > li.open > a {
+    color: #494949;
+    background: whitesmoke;
+    border-radius: 6px;
+}
+
+.cssanimation {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #d9d9d9 !important;
+}
+.navbar-welcome {
+    margin-top: 7px;
+}
+.navbar-welcome h4{
+    color: #31aee4;
+    font-size: 0.9rem;
+}
+.navbar-welcome h3{
+    color: #31aee4;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.error .message{
+    color: red;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #eee !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+     color: #5f5f5f !important;
+
+}
+#warehouse-location .select2-container {
+    width: 170.797px !important;
+}
+.select2-container--default .select2-results__option[aria-disabled=true] { display: none;}

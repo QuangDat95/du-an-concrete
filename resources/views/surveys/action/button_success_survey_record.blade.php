@@ -1,0 +1,1 @@
+<label class="text-success text-bold-600 font-medium-1">Đã xử lý</label>

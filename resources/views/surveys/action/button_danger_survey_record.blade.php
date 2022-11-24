@@ -1,0 +1,1 @@
+<a href="{{route('surveyRecords.edit',['surveyRecord'=>$id])}}" class="text-danger text-bold-600 font-medium-1" style="margin-left:0.2rem">Chưa xử lý</a>

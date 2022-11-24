@@ -1,0 +1,14 @@
+.t-highlighted{
+    color:#1c9ad6;
+}
+.t-start,.t-end,.t-hover-day,.t-hover-day:hover{
+    background-color:#1c9ad6 !important;
+    color:#fff;
+}
+.t-range, .t-range-limit{
+    background-color:#d9d9d9;
+    color:#fff;
+}
+.t-day-check-in::after,.t-day-check-out::after,.t-month-check-in::after,.t-month-check-out::after{
+    content: " /"
+}

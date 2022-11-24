@@ -1,0 +1,67 @@
+.treegrid-indent {
+    width:16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+}
+
+.treegrid-expander {
+    width:16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-top:17px;
+    margin-right: 15px;
+}
+
+.treegrid-expander-expanded{
+    background: url(../image/collapse.png);
+    background-repeat: no-repeat;
+    background-color: rgba(167,191,217,.2);
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px rgb(167 191 217 / 20%);
+    z-index: 10;
+}
+
+.treegrid-expander-collapsed{
+    background-image: url(../image/expand.png);
+    background-repeat: no-repeat;
+    background-color: rgba(167,191,217,.2);
+    border-radius: 50%;
+    box-shadow: 0 0 0 6px rgb(167 191 217 / 20%);
+    z-index: 10;
+}
+
+.treegrid-expander-expanded:hover{
+    background-color: rgba(89, 106, 123, 0.2);
+    box-shadow: 0 0 0 6px rgb(89 106 123 / 20%);
+}
+
+.treegrid-expander-collapsed:hover{
+    background-color: rgba(89, 106, 123, 0.2);
+    box-shadow: 0 0 0 6px rgb(89 106 123 / 20%);
+}
+
+.treegrid-indent:not(.unset)::before{
+    content: "";
+    border-left: 1px solid #ddd;
+    padding-top: 47px;
+    margin-left: 8px;
+    top: -11px;
+    position: inherit;
+}
+
+.tree tr:not(.level-0) .treegrid-expander::before{
+    content: "";
+    position: absolute;
+    left: -32px;
+    border-top: 1px solid #ddd;
+    width: 25px;
+    top: 8px;
+}
+
+.table.dataTable.tree{
+    border: 0px solid #f8f8f8 !important;
+}

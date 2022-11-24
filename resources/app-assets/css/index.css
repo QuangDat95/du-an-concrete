@@ -1,0 +1,214 @@
+.select2-container--default .select2-selection--multiple {
+    border: none !important;
+    border-radius: 12px !important;
+}
+
+.nav.nav-tabs .nav-item .nav-link {
+    color: #404040;
+    background-color: #f6f5fb !important;
+}
+
+.nav.nav-tabs .nav-item .nav-link.active {
+    color: white;
+    background-color: #2B2087 !important;
+}
+
+.table-striped{
+padding-bottom:15px
+}
+
+.nav.nav-tabs .nav-item .nav-link.active:hover {
+    color: white !important;
+}
+
+.nav.nav-tabs .nav-item .nav-link:hover {
+    color: black !important;
+}
+
+.btn-light {
+    background-color: white !important;
+}
+
+th {
+    background: #2B2087;
+    color: #F6F5FB;
+    padding-bottom: 30px;
+}
+
+table thead,
+table tfoot {
+    position: sticky;
+}
+
+table {
+    display: nowrap;
+}
+
+table thead {
+    inset-block-start: 0;
+}
+
+table tfoot {
+    inset-block-end: 0;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkBoxes {
+    width: 92%;
+    display: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1;
+    height: 15rem;
+    overflow-y: scroll;
+    position: absolute;
+    left: 1rem;
+    bottom: -14.8rem;
+    font-size: 15px;
+}
+
+#checkBoxes label {
+    display: block;
+}
+
+/* hộp kiểm css */
+.multiselect {
+    width: 200px;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #2b2087 !important;
+    border-color: #2b2087 !important;
+    color: #fff;
+    padding: 5px;
+    border-radius:10px;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:after {
+    position: absolute;
+    bottom: 0.9em;
+    display: block;
+    opacity: 0;
+}
+
+#chitiet-no {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+tbody,
+option,
+a,
+th,
+tr,
+td {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 8px !important;
+    margin-left: 5px !important;
+}
+
+tbody tr td{
+    color:black;
+}
+
+thead tr,
+tfoot tr {
+    position: relative;
+}
+
+th {
+    white-space: nowrap
+}
+
+.fillter-tongquan {
+    width: 100%;
+    border: 0px solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.tongquan-justify {
+    width: 100%;
+    border: 0px solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.ui-datepicker {
+    background-color: skyblue !important;
+}
+
+.ui-datepicker th {
+    background-color: skyblue;
+}
+
+.dataTables_scrollHeadInner,
+.table {
+    width: 100% !important;
+}
+
+.picker__weekday {
+    color: #ffffff;
+    background-color: #03136e;
+}
+
+table td {
+    word-break: break-word;
+    vertical-align: top;
+    white-space: normal !important;
+}

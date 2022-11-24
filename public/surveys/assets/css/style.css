@@ -1,0 +1,396 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@font-face {
+    font-family: "Segoe UI";
+    src: url("/app-assets/fonts/segoeui/SegoeUI.ttf");
+}
+* {
+    font-family: "Segoe UI", sans-serif;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.vs-radio-con {
+    width: 135px;
+    margin-right: 70px;
+}
+table.dataTable.table-striped tr.odd {
+    background-color: #e6e6e6 !important;
+    border: 1px solid #e6e6e6;
+}
+/* table.dataTable.table {
+    border: 1px solid #e6e6e6 !important;
+} */
+table.my-table {
+    border: 1px solid #e6e6e6 !important;
+    border-spacing: 0;
+}
+table {
+    border-collapse: inherit !important;
+}
+table.my-table ::before,
+::after {
+    box-sizing: border-box;
+}
+table.my-table thead tr {
+    background-color: #f8f8f8;
+}
+.button-status-survey-record {
+    width: 100%;
+}
+.select2-results__option .wrap:before {
+    font-family: fontAwesome;
+    color: #999;
+    content: "\f096";
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+.select2-results__option[aria-selected="true"] .wrap:before {
+    content: "\f14a";
+}
+.select2-option-month {
+    font-weight: bold !important;
+}
+/* not required css */
+
+/* .row {
+    padding: 10px;
+} */
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkBoxes {
+    width: 92%;
+    display: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 1;
+    height: 15rem;
+    overflow-y: scroll;
+    position: absolute;
+    left: 1rem;
+    bottom: -14.8rem;
+    font-size: 15px;
+}
+
+#checkBoxes label {
+    display: block;
+}
+
+/* .item:hover {
+    background-color: #4f615e;
+} */
+/* .group_name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+} */
+#select_page {
+    padding: 5px;
+}
+#search_item {
+    width: 100%;
+}
+.group-years {
+    font-weight: bold;
+}
+.group-months {
+    font-weight: bold;
+    /* margin-left: 20px; */
+}
+#button-confirm-set-role {
+    background-color: #1c9ad6;
+    color: #fff;
+}
+#button-confirm-set-permission {
+    background-color: #1c9ad6;
+    color: #fff;
+}
+#permission_list {
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    margin-top: 0.1rem;
+}
+#role_list {
+    width: 20%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.7rem;
+    margin-top: 0.1rem;
+}
+/* .parent-scheduler-border {
+    padding-left: 1rem;
+} */
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 1em 1.4em 0 1.4em !important;
+    margin: 0 0 1.5em 0rem !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+}
+.btn-color-dufago {
+    background-color: #1c9ad6;
+    color: #fff;
+}
+.btn-color-dufago:hover {
+    background-color: #1c9ad6;
+    color: #fff;
+}
+.border-color-dufago {
+    border: 1px solid #1c9ad6;
+}
+.background-color-dufago {
+    background-color: #1c9ad6;
+}
+#line-chart-container {
+    height: 22rem;
+}
+.text-box-form-survey {
+    padding-left: 1.6rem;
+}
+.label-textbox-form-survey {
+    font-weight: bold;
+    /* margin-left: 1.8rem; */
+}
+#card-form-survey {
+    margin-top: 1rem;
+}
+#navbar-title-content {
+    padding-top: 0.5rem;
+}
+#card-filter-survey {
+    margin: 1rem auto;
+}
+#nav-logo-company {
+    padding-top: 0.6rem;
+}
+#card-list-survey-records {
+    margin: auto;
+}
+@media screen and (max-width: 576px) {
+    /* body {
+        font-size: 1rem;
+    } */
+    #nav-logo-company {
+        width: 50%;
+        padding-top: 0.9rem;
+        float: left;
+    }
+    #nav-logo-company #logo-company-dufago {
+        width: 100%;
+    }
+    #navbar-title-content {
+        width: 1%;
+        display: none;
+    }
+    #navbar-information-user {
+        display: none;
+    }
+    #navbar-information-user-small {
+        position: absolute;
+        right: 2.3rem;
+        top: -3.9rem;
+    }
+    #headingCollapse1 {
+        display: block !important;
+        text-align: center !important;
+    }
+    .collapse-title {
+        position: absolute;
+        top: 1.3rem;
+        right: 0;
+    }
+    #collapse1 {
+        width: 5rem;
+        background-color: #fff;
+        position: absolute;
+        top: 3.7rem;
+        right: 0px;
+    }
+    #dropdown-item-user {
+        position: absolute;
+        left: -9.8rem !important;
+        top: 6rem;
+        min-width: 6rem;
+        width: 10rem;
+    }
+    /* .answer-radio-mobile {
+        padding-left: 0.9rem;
+    } */
+    .nav.nav-tabs .nav-item {
+        position: relative;
+        width: 10rem;
+        text-align: center;
+    }
+    .icon-profile-page {
+        display: none;
+    }
+    #button-filter-survey-records {
+        margin-top: 1rem;
+    }
+    #line-chart-container {
+        height: 32rem;
+    }
+    .select2-container--default
+        .select2-selection--multiple
+        .select2-selection__choice__remove {
+        display: none !important;
+    }
+    .selectBox {
+        margin-bottom: 1rem;
+    }
+    #checkBoxes {
+        width: 92%;
+        bottom: -13.8rem;
+    }
+    #item-icon-set-role {
+        margin-left: 0.4rem;
+    }
+    .text-box-form-survey {
+        padding-left: 1rem;
+    }
+    .label-textbox-form-survey {
+        font-weight: bold;
+        /* margin-left: 0.5rem; */
+    }
+    #card-filter-survey {
+        left: 0;
+        /* margin-top: 0rem; */
+        /* margin-bottom: 2rem !important; */
+        max-width: 91%;
+    }
+    /* #card-list-survey-records {
+        margin-top: 19rem;
+    } */
+    #card-form-survey {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 577px) {
+    /* body {
+        font-size: 1rem;
+    } */
+    #nav-logo-company {
+        width: 100%;
+        padding-top: 0.8rem;
+    }
+    /* #nav-logo-company #logo-company-dufago {
+        width: 100%;
+    } */
+    /* #navbar-information-user-small {
+        display: block;
+    } */
+    /* #navbar-information-user {
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: -0.2rem;
+    } */
+    #headingCollapse1 {
+        display: block !important;
+        text-align: center !important;
+    }
+    #navbar-title-content {
+        /* width: 1%; */
+        display: none;
+        padding-top: 1.5rem;
+    }
+    .collapse-title {
+        position: absolute;
+        top: 1.3rem;
+        right: 0;
+    }
+    #collapse1 {
+        width: 5rem;
+        background-color: #fff;
+        position: absolute;
+        top: 3.7rem;
+        right: 0px;
+    }
+    #dropdown-item-user {
+        position: absolute;
+        left: -9.8rem !important;
+        top: 6rem;
+        min-width: 6rem;
+        width: 10rem;
+    }
+    #item-information-user {
+        float: right;
+    }
+    /* .answer-radio-mobile {
+        padding-left: 0.9rem;
+    } */
+    .nav.nav-tabs .nav-item {
+        position: relative;
+        width: 10rem;
+        text-align: center;
+    }
+    .icon-profile-page {
+        display: none;
+    }
+    #button-filter-survey-records {
+        margin-top: 1rem;
+    }
+    #line-chart-container {
+        height: 32rem;
+    }
+    .select2-container--default
+        .select2-selection--multiple
+        .select2-selection__choice__remove {
+        display: none !important;
+    }
+    .selectBox {
+        margin-bottom: 1rem;
+    }
+    #checkBoxes {
+        width: 92%;
+        bottom: -13.8rem;
+    }
+    #item-icon-set-role {
+        float: left;
+        /* margin-left: 0.4rem; */
+    }
+    .text-box-form-survey {
+        padding-left: 1.5rem;
+    }
+    .label-textbox-form-survey {
+        font-weight: bold;
+        /* margin-left: 0.5rem; */
+    }
+    .btn-color-dufago {
+        width: 8rem;
+    }
+}

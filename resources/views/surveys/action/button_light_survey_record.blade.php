@@ -1,0 +1,1 @@
+<label class="text-light text-bold-600 font-medium-1">Khảo sát đạt</label>

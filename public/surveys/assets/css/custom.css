@@ -1,0 +1,45 @@
+.main-menu.menu-light .navigation li a:not(.active):hover{
+    background: whitesmoke;
+}
+body.vertical-layout.vertical-menu-modern.menu-expanded .main-menu .logo{
+    background: url('../../app-assets/images/logo/logo-odinbi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 50px;
+}
+.navbar-header .navbar-brand .logo{
+    background: url('../../app-assets/images/logo/logo-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34px;
+    width: 34px;
+}
+table.data-list-view.dataTable tbody tr:hover, table.data-thumb-view.dataTable tbody tr:hover{
+    transform: none !important;
+    transition:none !important;
+    /*background: whitesmoke;*/
+}
+.dt-checkboxes-select-all input{
+    cursor: pointer !important;
+}
+
+table.data-list-view.dataTable .dt-checkboxes-cell input:hover:before{
+    border: 2px solid #373737 !important;
+}
+
+.vs-checkbox-primary input:checked ~ .vs-checkbox-custom{
+    border-width: 1px !important;
+}
+.vs-checkbox-custom{
+    border-width: 6px !important;
+    border-color: #7367f0 !important;
+
+}
+.action-btns .add-new-btn{
+    padding: 1.1rem 2rem !important;
+    background-color: #7367f0 !important;
+}
+.table-responsive .action-filters input[type=search] {
+    font-size: 15px;
+}
